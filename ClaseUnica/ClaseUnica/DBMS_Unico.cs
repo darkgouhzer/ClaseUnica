@@ -15,6 +15,7 @@ namespace UnicaSQL
         DBMS_SQLServer sql;
         DBMS_MySQL MySQL;
         DBMS_PostgreSQL PosgretSQL;
+        public Boolean OpenConnection;
 
         public DBMS_Unico(string sSGBDn, string sServer, string sBD, string sUsuario, string sPassword, Int32 sPuerto)
         {
@@ -46,25 +47,26 @@ namespace UnicaSQL
                 {
                     case "SQL_Server":
 
-                        bALLOK = sql.Conectarse();
+                        OpenConnection = bALLOK = sql.Conectarse();
 
                         break;
 
                     case "MySQL":
 
-                        bALLOK = MySQL.conectarse();
+                        OpenConnection = bALLOK = MySQL.conectarse();
                         break;
 
                     case "PostgreSQL":
-                        bALLOK = PosgretSQL.conectarse();
+                        OpenConnection = bALLOK = PosgretSQL.conectarse();
                         break;
                 }
-                //bALLOK = true;
-
+                
+                
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                OpenConnection = false;
             }
             return bALLOK;
         }
@@ -87,6 +89,7 @@ namespace UnicaSQL
                         PosgretSQL.desconectarse();
                         break;
                 }
+                OpenConnection = false;
                 bALLOK = true;
             }
             catch (Exception ex)

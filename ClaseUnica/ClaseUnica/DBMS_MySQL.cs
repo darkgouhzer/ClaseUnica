@@ -14,7 +14,7 @@ namespace UnicaSQL
         MySqlConnection conexion = new MySqlConnection();
         MySqlCommand cmd;
         MySqlDataAdapter Adapter;
-
+        public Boolean OpenConnection;
 
         public DBMS_MySQL(string sCadConn)
         {
@@ -26,11 +26,12 @@ namespace UnicaSQL
             try
             {
                 conexion.Open();
-                bAllOk = true;
+                OpenConnection = bAllOk = true;
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                OpenConnection = false;
             }
             return bAllOk;
         }
@@ -41,10 +42,12 @@ namespace UnicaSQL
             {
                 conexion.Close();
                 bAllOk = true;
+                OpenConnection = false;
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                OpenConnection = false;
             }
             return bAllOk;
         }
