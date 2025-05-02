@@ -112,3 +112,16 @@ C:\Users\Hugo\OneDrive\Documentos\GitHub\ClaseUnica\ClaseUnica\ClaseUnica\bin\De
 C:\Users\Hugo\OneDrive\Documentos\GitHub\ClaseUnica\ClaseUnica\ClaseUnica\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Hugo\OneDrive\Documentos\GitHub\ClaseUnica\ClaseUnica\ClaseUnica\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Hugo\OneDrive\Documentos\GitHub\ClaseUnica\ClaseUnica\ClaseUnica\obj\Debug\ClaseUnica.csprojResolveAssemblyReference.cache
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\bin\Debug\ClaseUnica.dll.config
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\bin\Debug\ClaseUnica.dll
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\bin\Debug\ClaseUnica.pdb
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\bin\Debug\System.Buffers.dll
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\bin\Debug\System.Memory.dll
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\bin\Debug\System.Numerics.Vectors.dll
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\obj\Debug\ClaseUnica.csproj.AssemblyReference.cache
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\obj\Debug\ClaseUnica.csproj.CoreCompileInputs.cache
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\obj\Debug\ClaseUnica.csproj.Up2Date
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\obj\Debug\ClaseUnica.dll
+C:\Github\2.- Diprolim\ClaseUnica\ClaseUnica\ClaseUnica\ClaseUnica\obj\Debug\ClaseUnica.pdb

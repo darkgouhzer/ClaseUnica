@@ -28,7 +28,7 @@ namespace UnicaSQL
                     break;
 
                 case "MySQL":
-                    sConexion = string.Format("server={0}; database={1}; Uid={2}; pwd={3}; AllowUserVariables=True;", sServer, sBD, sUsuario, sPassword);
+                    sConexion = string.Format("server={0}; database={1}; Uid={2}; pwd={3}; AllowUserVariables=True; port={4};", sServer, sBD, sUsuario, sPassword, sPuerto);
                     MySQL = new DBMS_MySQL(sConexion);
                     break;
 
